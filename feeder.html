@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Feeder</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/logogobis.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css" />
+
+  <style>
+    #map {
+      height: 500px;
+      width: 100%;
+      max-width: 1100px;
+      border-radius: 16px;
+    }
+
+    @media (max-width: 1200px) {
+      #map {
+        height: 400px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      #map {
+        height: 300px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      #map {
+        height: 200px;
+      }
+    }
+
+    .logo-control img {
+      width: 100px;
+      height: 100px;
+    }
+
+    .logo1-control img {
+      width: 200px;
+      height: 100px;
+    }
+  </style>
+
+
+</head>
+
+<body class="contact-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/logogobis.png" alt="">
+        <h1 class="sitename">Feeder</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Beranda<br></a></li>
+          <li><a href="jadwalbus.html">Jadwal Transportasi</a></li>
+          <li><a href="lokasihalte.html">Lihat Lokasi</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/ww1.jpg);">
+      <div class="container position-relative">
+        <h1>Feeder</h1>
+        <p>Temukan lokasi pemberhentian feeder yang menghubungkan Anda dengan halte-halte Suroboyo Bus. Nikmati kemudahan akses ke transportasi kota dengan informasi lokasi feeder yang akurat dan up-to-date.</p>
+        <nav class="breadcrumbs">
+          <ol>
+            <!-- <li><a href="index.html">Home</a></li>
+            <li class="current">Contact</li> -->
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <h3>Peta Lokasi Halte Feeder</h3>
+        <p>Pada peta dibawah merupakan lokasi setiap halte Feeder, di setiap wilayah lokasi kota surabaya</p>
+        <div class="mb-4" data-aos="fade-up" data-aos-delay="200">
+          <div id="map"></div>
+        </div>
+
+        <div class="row gy-4">
+
+          <h2>Wilayah Halte Feeder</h2>
+          <div class="col-lg-4">
+            <p>Pada button wilayah halte yang berada dibawah, ketika anda klik akan muncul lokasi halte setiap wilayah yang anda klik</p>
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="100">
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#popupModal">
+                <i class="fa-solid fa-compass"></i>
+                <div>
+                  <h3>Surabaya Pusat</h3>
+                </div>
+              </button>
+            </div>
+            
+            <div class="modal fade" id="popupModal" tabindex="-1" aria-labelledby="popupModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="popupModalLabel">Lokasi Halte Surabaya Pusat</h5>
+                    <button type="button" class="btn-close close-btn" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="btn-grid">
+                      <a href="link1.html" class="btn btn-secondary">Button 1</a>
+                      <a href="link2.html" class="btn btn-secondary">Button 2</a>
+                      <a href="link3.html" class="btn btn-secondary">Button 3</a>
+                      <a href="link4.html" class="btn btn-secondary">Button 4</a>
+                      <a href="link5.html" class="btn btn-secondary">Button 5</a>
+                      <a href="link6.html" class="btn btn-secondary">Button 6</a>
+                      <a href="link7.html" class="btn btn-secondary">Button 7</a>
+                      <a href="link8.html" class="btn btn-secondary">Button 8</a>
+                      <a href="link9.html" class="btn btn-secondary">Button 9</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="100">
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#popupModalutara">
+                <i class="fa-solid fa-compass"></i>
+                <div>
+                  <h3>Surabaya Utara</h3>
+                </div>
+              </button>
+            </div>
+
+            <div class="modal fade" id="popupModalutara" tabindex="-1" aria-labelledby="popupModalutaraLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="popupModalutaraLabel">Lokasi Halte Surabaya Utara</h5>
+                    <button type="button" class="btn-close close-btn" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="btn-grid">
+                      <a href="link1.html" class="btn btn-secondary">Button 1</a>
+                      <a href="link2.html" class="btn btn-secondary">Button 2</a>
+                      <a href="link3.html" class="btn btn-secondary">Button 3</a>
+                      <a href="link4.html" class="btn btn-secondary">Button 4</a>
+                      <a href="link5.html" class="btn btn-secondary">Button 5</a>
+                      <a href="link6.html" class="btn btn-secondary">Button 6</a>
+                      <a href="link7.html" class="btn btn-secondary">Button 7</a>
+                      <a href="link8.html" class="btn btn-secondary">Button 8</a>
+                      <a href="link9.html" class="btn btn-secondary">Button 9</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="100">
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#popupModalTimur">
+                <i class="fa-solid fa-compass"></i>
+                <div>
+                  <h3>Surabaya Timur</h3>
+                </div>
+              </button>
+            </div>
+
+            <div class="modal fade" id="popupModalTimur" tabindex="-1" aria-labelledby="popupModalTimurLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="popupModalTimurLabel">Lokasi Halte Surabaya Timur</h5>
+                    <button type="button" class="btn-close close-btn" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="btn-grid">
+                      <a href="link1.html" class="btn btn-secondary">Button 1</a>
+                      <a href="link2.html" class="btn btn-secondary">Button 2</a>
+                      <a href="link3.html" class="btn btn-secondary">Button 3</a>
+                      <a href="link4.html" class="btn btn-secondary">Button 4</a>
+                      <a href="link5.html" class="btn btn-secondary">Button 5</a>
+                      <a href="link6.html" class="btn btn-secondary">Button 6</a>
+                      <a href="link7.html" class="btn btn-secondary">Button 7</a>
+                      <a href="link8.html" class="btn btn-secondary">Button 8</a>
+                      <a href="link9.html" class="btn btn-secondary">Button 9</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="100">
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#popupModalBarat">
+                <i class="fa-solid fa-compass"></i>
+                <div>
+                  <h3>Surabaya Barat</h3>
+                </div>
+              </button>
+            </div>
+
+            <div class="modal fade" id="popupModalBarat" tabindex="-1" aria-labelledby="popupModalBaratLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="popupModalBaratLabel">Lokasi Halte Surabaya Barat</h5>
+                    <button type="button" class="btn-close close-btn" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="btn-grid">
+                      <a href="link1.html" class="btn btn-secondary">Button 1</a>
+                      <a href="link2.html" class="btn btn-secondary">Button 2</a>
+                      <a href="link3.html" class="btn btn-secondary">Button 3</a>
+                      <a href="link4.html" class="btn btn-secondary">Button 4</a>
+                      <a href="link5.html" class="btn btn-secondary">Button 5</a>
+                      <a href="link6.html" class="btn btn-secondary">Button 6</a>
+                      <a href="link7.html" class="btn btn-secondary">Button 7</a>
+                      <a href="link8.html" class="btn btn-secondary">Button 8</a>
+                      <a href="link9.html" class="btn btn-secondary">Button 9</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="100">
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#popupModalSelatan">
+                <i class="fa-solid fa-compass"></i>
+                <div>
+                  <h3>Surabaya Selatan</h3>
+                </div>
+              </button>
+            </div>
+
+            <div class="modal fade" id="popupModalSelatan" tabindex="-1" aria-labelledby="popupModalSelatanLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="popupModalSelatanLabel">Lokasi Halte Surabaya Selatan</h5>
+                    <button type="button" class="btn-close close-btn" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="btn-grid">
+                      <a href="link1.html" class="btn btn-secondary">Button 1</a>
+                      <a href="link2.html" class="btn btn-secondary">Button 2</a>
+                      <a href="link3.html" class="btn btn-secondary">Button 3</a>
+                      <a href="link4.html" class="btn btn-secondary">Button 4</a>
+                      <a href="link5.html" class="btn btn-secondary">Button 5</a>
+                      <a href="link6.html" class="btn btn-secondary">Button 6</a>
+                      <a href="link7.html" class="btn btn-secondary">Button 7</a>
+                      <a href="link8.html" class="btn btn-secondary">Button 8</a>
+                      <a href="link9.html" class="btn btn-secondary">Button 9</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Logis</span>
+          </a>
+          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta
+            donna mare fermentum iaculis eu non diam phasellus.</p>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Jadwal Transportasi</a></li>
+            <li><a href="#">Lokasi Halte</a></li>
+            <li><a href="#">Suroboyo Bus</a></li>
+            <li><a href="#">Bus Kota</a></li>
+            <li><a href="#">Feeder</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Product Management</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Graphic Design</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contact Us</h4>
+          <p>A108 Adam Street</p>
+          <p>New York, NY 535022</p>
+          <p>United States</p>
+          <p class="mt-4"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+          <p><strong>Email:</strong> <span>info@example.com</span></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Logis</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>
