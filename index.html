@@ -15,7 +15,7 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -28,6 +28,70 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
+  <style>
+    .help-button {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      background-color: yellow;
+      color: blue;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      z-index: 1000;
+    }
+
+    .help-button:hover {
+      cursor: pointer;
+      background-color: gold;
+    }
+
+    .guide-modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+    }
+
+    .guide-content {
+      background: #222;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 600px;
+      text-align: center;
+    }
+
+    .close-guide {
+      background-color: red;
+      border: none;
+      border-radius: 50%;
+      color: #fff;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+
+    .close-guide:hover {
+      cursor: pointer;
+      background-color: darkred;
+    }
+  </style>
 </head>
 
 <body class="index-page">
@@ -36,7 +100,6 @@
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
         <img src="assets/img/logogobis.png" alt="">
         <h1 class="sitename">GO BIS</h1>
       </a>
@@ -49,47 +112,33 @@
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-
-      <!-- <a class="btn-getstarted" href="get-a-quote.html">Get a Quote</a> -->
-
     </div>
   </header>
 
   <main class="main">
-
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
-
       <img src="assets/img/world-dotted-map.png" alt="" class="hero-bg" data-aos="fade-in">
-
       <div class="container">
         <div class="row gy-4 d-flex justify-content-between">
           <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
             <h2 data-aos="fade-up">Transportasi Kota Surabaya</h2>
             <p data-aos="fade-up" data-aos-delay="100">Transportasi Kota Surabaya menyediakan berbagai moda transportasi yang nyaman dan efisien. Dengan pilihan seperti bus Suroboyo, angkutan kota, dan layanan transportasi online, Anda dapat dengan mudah menjelajahi setiap sudut kota. Nikmati perjalanan yang aman dan menyenangkan dengan fasilitas modern yang siap memenuhi kebutuhan mobilitas Anda.</p>
-
-            <!-- <form action="#" class="form-search d-flex align-items-stretch mb-3" data-aos="fade-up" data-aos-delay="200">
-              <input type="text" class="form-control" placeholder="Your ZIP code or City. e.g. New York">
-              <button type="submit" class="btn btn-primary">Search</button>
-            </form> -->
           </div>
 
           <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
             <img src="assets/img/vektor.png" class="img-fluid mb-3 mb-lg-0" alt="">
           </div>
-
         </div>
       </div>
-
     </section><!-- /Hero Section -->
 
     <!-- Featured Services Section -->
     <section id="featured-services" class="featured-services section">
-
       <div class="container section-title" data-aos="fade-up">
         <span>Layanan Transportasi<br></span>
         <h2>Layanan Transportasi</h2>
-        <p>layanan transportasi yang ditawarkan oleh Suroboyo Bus, termasuk bus reguler, feeder, dan bus kota. Setiap layanan dirancang untuk memenuhi kebutuhan mobilitas Anda di Surabaya dengan nyaman dan efisien.</p>
+        <p>Layanan transportasi yang ditawarkan oleh Suroboyo Bus, termasuk bus reguler, feeder, dan bus kota. Setiap layanan dirancang untuk memenuhi kebutuhan mobilitas Anda di Surabaya dengan nyaman dan efisien.</p>
       </div>
 
       <div class="container">
@@ -103,8 +152,7 @@
                 <a href="sbybus.html" class="readmore stretched-link"><span>Lihat Halte</span><i class="bi bi-arrow-right"></i></a>
               </button>
             </div>
-          </div>
-          <!-- End Service Item -->
+          </div><!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
             <div class="icon flex-shrink-0"><i class="fa-solid fa-bus-simple"></i></div>
@@ -118,7 +166,7 @@
           </div><!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon flex-shrink-0"><i class="fa-solid fa-taxi"></i></i></div>
+            <div class="icon flex-shrink-0"><i class="fa-solid fa-taxi"></i></div>
             <div>
               <h4 class="title">Feeder</h4>
               <p class="description">Temukan lokasi pemberhentian feeder yang menghubungkan Anda dengan halte-halte Suroboyo Bus. Nikmati kemudahan akses ke transportasi kota dengan informasi lokasi feeder yang akurat dan up-to-date.</p>
@@ -129,25 +177,19 @@
           </div><!-- End Service Item -->
 
         </div>
-
       </div>
-
     </section><!-- /Featured Services Section -->
 
     <!-- Services Section -->
     <section id="services" class="services section">
-
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <span>Tata Cara Melihat Halte Bus<br></span>
         <h2>Tata Cara Melihat Halte Bus</h2>
         <p>Pelajari langkah-langkah mudah untuk melacak posisi bus Suroboyo secara real-time. Panduan ini akan membantu Anda mengetahui lokasi bus, rute yang dilalui, dan perkiraan waktu kedatangan di halte terdekat.</p>
-      </div><!-- End Section Title -->
+      </div>
 
       <div class="container">
-
         <div class="row gy-4">
-
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="card">
               <div class="card-img">
@@ -179,20 +221,17 @@
           </div>
         </div>
       </div>
-
     </section>
 
+    <!-- Features Section -->
     <section id="features" class="features section">
-
       <div class="container section-title" data-aos="fade-up">
         <span>Layanan Suroboyo Bus</span>
         <h2>Layanan Suroboyo Bus</h2>
-        <p>Nikmati berbagai layanan dari Suroboyo Bus yang memudahkan perjalanan Anda di Surabaya. Mulai dari informasi rute, jadwal bus, hingga layanan pelanggan yang siap membantu Anda kapan saja.
-        </p>
+        <p>Nikmati berbagai layanan dari Suroboyo Bus yang memudahkan perjalanan Anda di Surabaya. Mulai dari informasi rute, jadwal bus, hingga layanan pelanggan yang siap membantu Anda kapan saja.</p>
       </div>
 
       <div class="container">
-
         <div class="row gy-4 align-items-center features-item">
           <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
             <img src="assets/img/kenyaman.png" class="img-fluid" alt="">
@@ -228,9 +267,9 @@
         </div><!-- Features Item -->
       </div>
     </section>
+  </main>
 
   <footer id="footer" class="footer dark-background">
-
     <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-about">
@@ -239,10 +278,10 @@
           </a>
           <p>GoBis, atau singkatan dari golek bis yang berarti mencari bis, bekerja dengan cara mendeteksi dan memantau posisi terkini bus tingkat dua dan Bus Suroboyo, sistem transit cepat bus kota.</p>
           <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+            <a href="#"><i class="bi bi-twitter-x"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
 
@@ -257,17 +296,6 @@
           </ul>
         </div>
 
-        <!-- <div class="col-lg-2 col-6 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
-          </ul>
-        </div> -->
-
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
           <h4>Contact Us</h4>
           <p>A108 Adam Street</p>
@@ -276,25 +304,39 @@
           <p class="mt-4"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
           <p><strong>Email:</strong> <span>info@example.com</span></p>
         </div>
-
       </div>
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Logis</strong> <span>All Rights Reserved</span></p>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Go Bis</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
-
   </footer>
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Help Button -->
+  <button class="help-button" onclick="openGuide()">
+    <i class="bi bi-question-circle"></i>
+  </button>
+
+  <!-- Guide Modal -->
+  <div class="guide-modal" id="guideModal">
+    <div class="guide-content">
+      <button class="close-guide" onclick="closeGuide()">&times;</button>
+      <h2>Panduan Menggunakan Website</h2>
+      <p>Selamat datang di situs GO BIS. Berikut adalah panduan untuk membantu Anda menjelajahi fitur-fitur yang tersedia:</p>
+      <ul>
+        <li><strong>Beranda:</strong> Menyajikan informasi umum tentang transportasi di Surabaya.</li>
+        <li><strong>Jadwal Transportasi:</strong> Memungkinkan Anda melihat jadwal dan rute transportasi yang tersedia.</li>
+        <li><strong>Lihat Lokasi:</strong> Menampilkan lokasi halte dan terminal bus di Surabaya.</li>
+      </ul>
+      <p>Untuk informasi lebih lanjut, silakan hubungi kami melalui halaman Kontak.</p>
+    </div>
+  </div>
 
   <!-- Preloader -->
   <div id="preloader"></div>
@@ -310,6 +352,14 @@
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
-</body>
+  <script>
+    function openGuide() {
+      document.getElementById('guideModal').style.display = 'flex';
+    }
 
+    function closeGuide() {
+      document.getElementById('guideModal').style.display = 'none';
+    }
+  </script>
+</body>
 </html>
