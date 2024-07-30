@@ -87,6 +87,70 @@ h6 {
   font-family: var(--heading-font);
 }
 
+
+.help-button {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: yellow;
+  color: blue;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  z-index: 1000;
+}
+
+.help-button:hover {
+  cursor: pointer;
+  background-color: gold;
+}
+
+.guide-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+  color: #333333;
+}
+
+.guide-content {
+  background: #e7e7e7;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  text-align: center;
+}
+
+.close-guide {
+  background-color: red;
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.close-guide:hover {
+  cursor: pointer;
+  background-color: darkred;
+}
+
 /* Pulsating Play Button
 ------------------------------*/
 .pulsating-play-btn {
