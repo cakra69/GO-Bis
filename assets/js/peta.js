@@ -165,7 +165,7 @@ L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
 map.locate({ setView: true, maxZoom: 16 });
 
 var markerIcon = L.icon({
-  iconUrl: "img/marker2.png",
+  iconUrl: "assets/img/marker2.png",
   shadowUrl: "leaf-shadow.png",
   iconSize: [44, 44],
   iconAnchor: [22, 44],

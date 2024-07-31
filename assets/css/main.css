@@ -90,13 +90,13 @@ h6 {
 
 .help-button {
   position: fixed;
-  top: 10px;
-  right: 10px;
+  top: 100px;
+  right: 5px;
   background-color: yellow;
   color: blue;
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -120,7 +120,7 @@ h6 {
   z-index: 1000;
   justify-content: center;
   align-items: center;
-  color: #333333;
+  overflow: auto; /* Enable scrolling */
 }
 
 .guide-content {
@@ -128,7 +128,10 @@ h6 {
   padding: 20px;
   border-radius: 8px;
   max-width: 600px;
+  width: 90%;
   text-align: center;
+  max-height: 90%; /* Limit height for scrolling */
+  overflow: auto; /* Enable scrolling inside the modal */
 }
 
 .close-guide {
@@ -150,6 +153,52 @@ h6 {
   cursor: pointer;
   background-color: darkred;
 }
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .guide-content {
+    max-width: 90%;
+    padding: 15px;
+  }
+
+  .help-button {
+    top: 80px;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .guide-content img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .help-button {
+    top: 60px;
+    right: 5px;
+    width: 35px;
+    height: 35px;
+  }
+
+  .guide-content {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .close-guide {
+    width: 25px;
+    height: 25px;
+  }
+
+  .guide-content img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
 
 /* Pulsating Play Button
 ------------------------------*/
