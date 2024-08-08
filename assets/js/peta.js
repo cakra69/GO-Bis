@@ -207,7 +207,7 @@ L.LogoControl = L.Control.extend({
     container.title = "Compass";
 
     // Adjust the position slightly
-    container.style.marginBottom = "50px";
+    container.style.marginBottom = "70px";
     container.style.marginRight = "100px";
 
     return container;
