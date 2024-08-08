@@ -207,8 +207,8 @@ L.LogoControl = L.Control.extend({
     container.title = "Compass";
 
     // Adjust the position slightly
-    container.style.marginBottom = "100%";
-    container.style.marginRight = "100%";
+    container.style.marginBottom = "100px";
+    container.style.marginRight = "100px";
 
     return container;
   },
@@ -233,8 +233,8 @@ L.LogoControl = L.Control.extend({
     container.title = "Legenda";
 
     // Adjust the position slightly
-    container.style.marginBottom = "90%";
-    container.style.marginRight = "400%";
+    container.style.marginBottom = "90px";
+    container.style.marginRight = "400px";
 
     return container;
   },
