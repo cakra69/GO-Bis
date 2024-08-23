@@ -144,10 +144,9 @@
 
 })();
 
-// Initialize the map
+
 const map = L.map('map').setView([-7.3059172224119762112, 73742039488022], 13);
 
-// Add a tile layer to the map
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; OpenStreetMap contributors'
 }).addTo(map);
@@ -157,7 +156,6 @@ map.locate({ setView: true, maxZoom: 16 });
 var markerIcon = L.icon({
   iconUrl: "assets/img/marker2.png",
   shadowUrl: "leaf-shadow.png",
-
   iconSize: [44, 44],
   iconAnchor: [22, 44],
   tooltipAnchor: [22, 50],
@@ -172,8 +170,16 @@ function onLocationFound(e) {
     .openPopup();
 
   L.circle(e.latlng, radius).addTo(map);
-}
 
+  // Rute dari lokasi saat ini ke halte terdekat (contoh: Halte A)
+  L.Routing.control({
+      waypoints: [
+          L.latLng(e.latlng),  // Lokasi saat ini
+          L.latLng([-7.260050682553981, 112.73975045722177]) // Halte A
+      ],
+      routeWhileDragging: true
+  }).addTo(map);
+}
 
 L.LogoControl = L.Control.extend({
     options: {
@@ -187,7 +193,6 @@ L.LogoControl = L.Control.extend({
         L.DomEvent.disableClickPropagation(button);
         container.title = "Compass";
         
-        // Adjust the position slightly
         container.style.marginBottom = '80px';
         container.style.marginRight = '100px';
   
@@ -195,7 +200,7 @@ L.LogoControl = L.Control.extend({
     }
   });
   
-  new L.LogoControl().addTo(map)
+  new L.LogoControl().addTo(map);
 
   L.LogoControl = L.Control.extend({
     options: {
@@ -217,13 +222,15 @@ L.LogoControl = L.Control.extend({
     }
   });
   
-  new L.LogoControl().addTo(map)
+  new L.LogoControl().addTo(map);
 
 map.on("locationfound", onLocationFound);
 
 function onLocationError(e) {
   alert(e.message);
 }
+
+map.on("locationerror", onLocationError);
 
 var halteMarker = L.marker([-7.260050682553981, 112.73975045722177])
   .addTo(map)
