@@ -236,7 +236,7 @@ new L.LogoControl().addTo(map);
 var halteMarkerJoyoBoyo = L.marker([
   -7.298717445208517, 112.73651463865124,
 ]).bindPopup(
-  '<b>Terminal Joyoboyo</b><br>Jl. Wonokromo, Surabaya<br><a href="https://maps.app.goo.gl/K49PppnKhBqVBXq5A"> >>Liat Halte<< </a><br><img src="assets/assets/img/tablejam.jpeg" width="300" height="200">'
+  '<b>Terminal Joyoboyo</b><br>Jl. Wonokromo, Surabaya<br><a href="https://maps.app.goo.gl/K49PppnKhBqVBXq5A"> >>Liat Halte<< </a> '
 );
 var halteMarkerBratang = L.marker([
   -7.298580859934724, 112.76115245796822,
