@@ -215,130 +215,141 @@
   
   // surabaya pusat
   
-  var halteMarker = L.marker([-7.298717445208517, 112.73651463865124])
-    .addTo(map)
-    .bindPopup("Halte A");
-  halteMarker
-  L.marker([-7.298717445208517, 112.73651463865124],)
-  .addTo(map)
-  .bindPopup(`
-    <b>Terminal Joyoboyo</b><br>
-    Jl. Wonokromo, Surabaya <br>
-    <a href="https://maps.app.goo.gl/K49PppnKhBqVBXq5A"> >>Liat Halte<< </a><br>
-    <table style="border-collapse: collapse; width: 300px;">
-      <tr>
-        <td style="border: 1px solid black;">5:30</td>
-        <td style="border: 1px solid black;">5:40</td>
-        <td style="border: 1px solid black;">5:50</td>
-        <td style="border: 1px solid black;">6:00</td>
-        <td style="border: 1px solid black;">6:10</td>
-        <td style="border: 1px solid black;">6:20</td>
-        <td style="border: 1px solid black;">6:30</td>
-        <td style="border: 1px solid black;">6:40</td>
-        <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
-      </tr>
-    </table>
-  `)
-  .openPopup();
+  // Tambahkan marker untuk Halte A
+var halteMarker = L.marker([-7.298717445208517, 112.73651463865124])
+.addTo(map)
+.bindPopup("Halte A");
+
+// Tambahkan marker untuk Terminal Joyoboyo dengan tabel waktu keberangkatan
+L.marker([-7.298717445208517, 112.73651463865124])
+.addTo(map)
+.bindPopup(`
+<b>Terminal Joyoboyo</b><br>
+Jl. Wonokromo, Surabaya <br>
+<a href="https://maps.app.goo.gl/K49PppnKhBqVBXq5A"> >>Liat Halte<< </a><br>
+<table style="border-collapse: collapse; width: 300px;">
+  <tr>
+    <td style="border: 1px solid black;">5:30</td>
+    <td style="border: 1px solid black;">5:40</td>
+    <td style="border: 1px solid black;">5:50</td>
+    <td style="border: 1px solid black;">6:00</td>
+    <td style="border: 1px solid black;">6:10</td>
+    <td style="border: 1px solid black;">6:20</td>
+    <td style="border: 1px solid black;">6:30</td>
+    <td style="border: 1px solid black;">6:40</td>
+    <td style="border: 1px solid black;">6:50</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black;">7:00</td>
+    <td style="border: 1px solid black;">7:10</td>
+    <td style="border: 1px solid black;">7:20</td>
+    <td style="border: 1px solid black;">7:30</td>
+    <td style="border: 1px solid black;">7:40</td>
+    <td style="border: 1px solid black;">7:50</td>
+    <td style="border: 1px solid black;">8:00</td>
+    <td style="border: 1px solid black;">8:10</td>
+    <td style="border: 1px solid black;">8:20</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black;">8:30</td>
+    <td style="border: 1px solid black;">8:40</td>
+    <td style="border: 1px solid black;">8:50</td>
+    <td style="border: 1px solid black;">9:00</td>
+    <td style="border: 1px solid black;">9:10</td>
+    <td style="border: 1px solid black;">9:20</td>
+    <td style="border: 1px solid black;">9:30</td>
+    <td style="border: 1px solid black;">9:40</td>
+    <td style="border: 1px solid black;">9:50</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black;">10:00</td>
+    <td style="border: 1px solid black;">10:10</td>
+    <td style="border: 1px solid black;">10:20</td>
+    <td style="border: 1px solid black;">10:30</td>
+    <td style="border: 1px solid black;">10:40</td>
+    <td style="border: 1px solid black;">10:50</td>
+    <td style="border: 1px solid black;">11:00</td>
+    <td style="border: 1px solid black;">11:10</td>
+    <td style="border: 1px solid black;">11:20</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black;">11:30</td>
+    <td style="border: 1px solid black;">11:40</td>
+    <td style="border: 1px solid black;">11:50</td>
+    <td style="border: 1px solid black;">12:00</td>
+    <td style="border: 1px solid black;">12:10</td>
+    <td style="border: 1px solid black;">12:20</td>
+    <td style="border: 1px solid black;">12:30</td>
+    <td style="border: 1px solid black;">12:40</td>
+    <td style="border: 1px solid black;">12:50</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black;">13:00</td>
+    <td style="border: 1px solid black;">13:10</td>
+    <td style="border: 1px solid black;">13:20</td>
+    <td style="border: 1px solid black;">13:30</td>
+    <td style="border: 1px solid black;">13:40</td>
+    <td style="border: 1px solid black;">13:50</td>
+    <td style="border: 1px solid black;">14:00</td>
+    <td style="border: 1px solid black;">14:10</td>
+    <td style="border: 1px solid black;">14:20</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black;">14:30</td>
+    <td style="border: 1px solid black;">14:40</td>
+    <td style="border: 1px solid black;">14:50</td>
+    <td style="border: 1px solid black;">15:00</td>
+    <td style="border: 1px solid black;">15:10</td>
+    <td style="border: 1px solid black;">15:20</td>
+    <td style="border: 1px solid black;">15:30</td>
+    <td style="border: 1px solid black;">15:40</td>
+    <td style="border: 1px solid black;">15:50</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black;">16:00</td>
+    <td style="border: 1px solid black;">16:10</td>
+    <td style="border: 1px solid black;">16:20</td>
+    <td style="border: 1px solid black;">16:30</td>
+    <td style="border: 1px solid black;">16:40</td>
+    <td style="border: 1px solid black;">16:50</td>
+    <td style="border: 1px solid black;">17:00</td>
+    <td style="border: 1px solid black;">17:10</td>
+    <td style="border: 1px solid black;">17:20</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black;">17:30</td>
+    <td style="border: 1px solid black;">17:40</td>
+    <td style="border: 1px solid black;">17:50</td>
+    <td style="border: 1px solid black;">18:00</td>
+    <td style="border: 1px solid black;">18:10</td>
+    <td style="border: 1px solid black;">18:20</td>
+    <td style="border: 1px solid black;">18:30</td>
+    <td style="border: 1px solid black;">18:40</td>
+    <td style="border: 1px solid black;">18:50</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black;">19:00</td>
+    <td style="border: 1px solid black;">19:10</td>
+    <td style="border: 1px solid black;">19:20</td>
+    <td style="border: 1px solid black;">19:30</td>
+    <td style="border: 1px solid black;">19:40</td>
+    <td style="border: 1px solid black;">19:50</td>
+    <td style="border: 1px solid black;">20:00</td>
+    <td style="border: 1px solid black;">20:10</td>
+    <td style="border: 1px solid black;">20:20</td>
+  </tr>
+</table>
+`)
+.openPopup();
+
+// Tambahkan kontrol routing
+L.Routing.control({
+waypoints: [
+L.latLng(-7.298717445208517, 112.73651463865124), // Titik awal (Terminal Joyoboyo)
+L.latLng(-7.3295351146434715, 112.80430838280022) // Titik tujuan (dapat diubah sesuai keperluan)
+]
+}).addTo(map);
+
   
   var halteMarker = L.marker([-7.298580859934724, 112.76115245796822])
     .addTo(map)
@@ -460,6 +471,13 @@
     </table>
      `)
     .openPopup();
+
+    L.Routing.control({
+      waypoints: [
+      L.latLng(-7.298580859934724, 112.76115245796822), // Titik awal (Terminal Joyoboyo)
+      L.latLng(-7.3295351146434715, 112.80430838280022) // Titik tujuan (dapat diubah sesuai keperluan)
+      ]
+      }).addTo(map);
   
   var halteMarker = L.marker([-7.199408396352415, 112.73449707913173])
     .addTo(map)
@@ -581,57 +599,282 @@
     </table>
     `)
   .openPopup();
+
+  L.Routing.control({
+    waypoints: [
+    L.latLng(-7.199408396352415, 112.73449707913173), // Titik awal (Terminal Joyoboyo)
+    L.latLng(-7.3295351146434715, 112.80430838280022) // Titik tujuan (dapat diubah sesuai keperluan)
+    ]
+    }).addTo(map);
   
-  var halteMarker = L.marker([-7.197230886513778, 112.73370183555258])
-    .addTo(map)
-    .bindPopup('Halte D');
-  halteMarker.bindPopup('<b>Terminal Ujung</b><br>Jl. , Surabaya <br> <a href="https://maps.app.goo.gl/RcwKBV3FZ7q4EDEj8"> >>Liat Halte<< </a><br><img src="assets/img/tablejam.jpeg" width="300" height="200">')
+  var halteMarkerD = L.marker([-7.197230886513778, 112.73370183555258])
+  .addTo(map)
+  .bindPopup(`
+    <b>Terminal Ujung</b><br>
+    Jl. , Surabaya <br> 
+    <a href="https://maps.app.goo.gl/RcwKBV3FZ7q4EDEj8"> >>Liat Halte<< </a><br>
+    <table style="border-collapse: collapse; width: 300px;">
+      <tr>
+        <td style="border: 1px solid black;">5:30</td>
+        <td style="border: 1px solid black;">5:40</td>
+        <td style="border: 1px solid black;">5:50</td>
+        <td style="border: 1px solid black;">6:00</td>
+        <td style="border: 1px solid black;">6:10</td>
+        <td style="border: 1px solid black;">6:20</td>
+        <td style="border: 1px solid black;">6:30</td>
+        <td style="border: 1px solid black;">6:40</td>
+        <td style="border: 1px solid black;">6:50</td>
+      </tr>
+      
+    </table>
+  `)
   .openPopup();
+
+  L.Routing.control({
+    waypoints: [
+    L.latLng(-7.197230886513778, 112.73370183555258), // Titik awal (Terminal Joyoboyo)
+    L.latLng(-7.3295351146434715, 112.80430838280022) // Titik tujuan (dapat diubah sesuai keperluan)
+    ]
+    }).addTo(map);
+
+var halteMarkerE = L.marker([-7.217779392241288, 112.6549541908318])
+  .addTo(map)
+  .bindPopup(`
+    <b>Terminal Tambak Osowilangun</b><br>
+    Jl. Karang Menjangan, Surabaya <br> 
+    <a href="https://maps.app.goo.gl/zuZ2VwQaNcQFP6M97"> >>Liat Halte<< </a><br>
+    <table style="border-collapse: collapse; width: 300px;">
+      <tr>
+        <td style="border: 1px solid black;">5:30</td>
+        <td style="border: 1px solid black;">5:40</td>
+        <td style="border: 1px solid black;">5:50</td>
+        <td style="border: 1px solid black;">6:00</td>
+        <td style="border: 1px solid black;">6:10</td>
+        <td style="border: 1px solid black;">6:20</td>
+        <td style="border: 1px solid black;">6:30</td>
+        <td style="border: 1px solid black;">6:40</td>
+        <td style="border: 1px solid black;">6:50</td>
+      </tr>
+      <!-- Tambahan waktu berikutnya di sini -->
+    </table>
+  `)
+  .openPopup();
+
   
-  var halteMarker = L.marker([-7.217779392241288, 112.6549541908318])
-    .addTo(map)
-    .bindPopup('Halte E');
-  halteMarker.bindPopup('<b>Terminal Tambak Osowilangun</b><br>Jl. Karang Menjangan, Surabaya <br> <a href="https://maps.app.goo.gl/zuZ2VwQaNcQFP6M97"> >>Liat Halte<< </a><br><img src="assets/img/tablejam.jpeg" width="300" height="200">')
-  .openPopup();
+  L.Routing.control({
+    waypoints: [
+    L.latLng(-7.217779392241288, 112.6549541908318), // Titik awal (Terminal Joyoboyo)
+    L.latLng(-7.3295351146434715, 112.80430838280022) // Titik tujuan (dapat diubah sesuai keperluan)
+    ]
+    }).addTo(map);
   
-  var halteMarker = L.marker([-7.223014055568507, 112.73778921763756])
-    .addTo(map)
-    .bindPopup('Halte E');
-  halteMarker.bindPopup('<b>Terminal Kalimas</b><br>Jl. Keputran Raya, Surabaya <br> <a href="https://maps.app.goo.gl/3ecS2n1Dx3CAtVjJ9"> >>Liat Halte<< </a><br><img src="assets/img/tablejam.jpeg" width="300" height="200">')
+
+var halteMarkerF = L.marker([-7.223014055568507, 112.73778921763756])
+  .addTo(map)
+  .bindPopup(`
+    <b>Terminal Kalimas</b><br>
+    Jl. Keputran Raya, Surabaya <br> 
+    <a href="https://maps.app.goo.gl/3ecS2n1Dx3CAtVjJ9"> >>Liat Halte<< </a><br>
+    <table style="border-collapse: collapse; width: 300px;">
+      <tr>
+        <td style="border: 1px solid black;">5:30</td>
+        <td style="border: 1px solid black;">5:40</td>
+        <td style="border: 1px solid black;">5:50</td>
+        <td style="border: 1px solid black;">6:00</td>
+        <td style="border: 1px solid black;">6:10</td>
+        <td style="border: 1px solid black;">6:20</td>
+        <td style="border: 1px solid black;">6:30</td>
+        <td style="border: 1px solid black;">6:40</td>
+        <td style="border: 1px solid black;">6:50</td>
+      </tr>
+      <!-- Tambahan waktu berikutnya di sini -->
+    </table>
+  `)
   .openPopup();
-  
-  var halteMarker = L.marker([-7.229261083371892, 112.74588399437222])
-    .addTo(map)
-    .bindPopup('Halte E');
-  halteMarker.bindPopup('<b>Terminal Pergirian</b><br>Jl. Peneleh, Surabaya <br> <a href="https://maps.app.goo.gl/eVnbWGiVHQmWkJ9BA"> >>Liat Halte<< </a><br><img src="assets/img/tablejam.jpeg" width="300" height="200">')
+
+  L.Routing.control({
+    waypoints: [
+    L.latLng(-7.223014055568507, 112.73778921763756), // Titik awal (Terminal Joyoboyo)
+    L.latLng(-7.3295351146434715, 112.80430838280022) // Titik tujuan (dapat diubah sesuai keperluan)
+    ]
+    }).addTo(map);
+
+var halteMarkerG = L.marker([-7.229261083371892, 112.74588399437222])
+  .addTo(map)
+  .bindPopup(`
+    <b>Terminal Pergirian</b><br>
+    Jl. Peneleh, Surabaya <br> 
+    <a href="https://maps.app.goo.gl/eVnbWGiVHQmWkJ9BA"> >>Liat Halte<< </a><br>
+    <table style="border-collapse: collapse; width: 300px;">
+      <tr>
+        <td style="border: 1px solid black;">5:30</td>
+        <td style="border: 1px solid black;">5:40</td>
+        <td style="border: 1px solid black;">5:50</td>
+        <td style="border: 1px solid black;">6:00</td>
+        <td style="border: 1px solid black;">6:10</td>
+        <td style="border: 1px solid black;">6:20</td>
+        <td style="border: 1px solid black;">6:30</td>
+        <td style="border: 1px solid black;">6:40</td>
+        <td style="border: 1px solid black;">6:50</td>
+      </tr>
+      <!-- Tambahan waktu berikutnya di sini -->
+    </table>
+  `)
   .openPopup();
-  
-  var halteMarker = L.marker([-7.29457459482408, 112.80176036035004])
-    .addTo(map)
-    .bindPopup('Halte E');
-  halteMarker.bindPopup('<b>Terminal Keputih</b><br>Jl. Keputih, Surabaya <br> <a href="https://maps.app.goo.gl/on1eZEDfr4RVNTZw7"> >>Liat Halte<< </a><br><img src="assets/img/tablejam.jpeg" width="300" height="200">')
+
+  L.Routing.control({
+    waypoints: [
+    L.latLng(-7.229261083371892, 112.74588399437222), // Titik awal (Terminal Joyoboyo)
+    L.latLng(-7.3295351146434715, 112.80430838280022) // Titik tujuan (dapat diubah sesuai keperluan)
+    ]
+    }).addTo(map);
+
+var halteMarkerH = L.marker([-7.29457459482408, 112.80176036035004])
+  .addTo(map)
+  .bindPopup(`
+    <b>Terminal Keputih</b><br>
+    Jl. Keputih, Surabaya <br> 
+    <a href="https://maps.app.goo.gl/on1eZEDfr4RVNTZw7"> >>Liat Halte<< </a><br>
+    <table style="border-collapse: collapse; width: 300px;">
+      <tr>
+        <td style="border: 1px solid black;">5:30</td>
+        <td style="border: 1px solid black;">5:40</td>
+        <td style="border: 1px solid black;">5:50</td>
+        <td style="border: 1px solid black;">6:00</td>
+        <td style="border: 1px solid black;">6:10</td>
+        <td style="border: 1px solid black;">6:20</td>
+        <td style="border: 1px solid black;">6:30</td>
+        <td style="border: 1px solid black;">6:40</td>
+        <td style="border: 1px solid black;">6:50</td>
+      </tr>
+      <!-- Tambahan waktu berikutnya di sini -->
+    </table>
+  `)
   .openPopup();
-  
-  var halteMarker = L.marker([-7.235072682230659, 112.60791509936885])
-    .addTo(map)
-    .bindPopup('Halte E');
-  halteMarker.bindPopup('<b>Terminal Benowo</b><br>Jl. Benowo Pakal, Surabaya <br> <a href="https://maps.app.goo.gl/Jw8AsdiT7DusRoKn8"> >>Liat Halte<< </a><br><img src="assets/img/tablejam.jpeg" width="300" height="200">')
+
+  L.Routing.control({
+    waypoints: [
+    L.latLng(-7.29457459482408, 112.80176036035004), // Titik awal (Terminal Joyoboyo)
+    L.latLng(-7.3295351146434715, 112.80430838280022) // Titik tujuan (dapat diubah sesuai keperluan)
+    ]
+    }).addTo(map);
+
+var halteMarkerI = L.marker([-7.235072682230659, 112.60791509936885])
+  .addTo(map)
+  .bindPopup(`
+    <b>Terminal Benowo</b><br>
+    Jl. Benowo Pakal, Surabaya <br> 
+    <a href="https://maps.app.goo.gl/Jw8AsdiT7DusRoKn8"> >>Liat Halte<< </a><br>
+    <table style="border-collapse: collapse; width: 300px;">
+      <tr>
+        <td style="border: 1px solid black;">5:30</td>
+        <td style="border: 1px solid black;">5:40</td>
+        <td style="border: 1px solid black;">5:50</td>
+        <td style="border: 1px solid black;">6:00</td>
+        <td style="border: 1px solid black;">6:10</td>
+        <td style="border: 1px solid black;">6:20</td>
+        <td style="border: 1px solid black;">6:30</td>
+        <td style="border: 1px solid black;">6:40</td>
+        <td style="border: 1px solid black;">6:50</td>
+      </tr>
+      <!-- Tambahan waktu berikutnya di sini -->
+    </table>
+  `)
   .openPopup();
-  
-  var halteMarker = L.marker([-7.268228015557616, 112.66655780370948])
-    .addTo(map)
-    .bindPopup('Halte E');
-  halteMarker.bindPopup('<b>Terminal Manukan</b><br>Jl. Manukan Rejo, Surabaya <br> <a href="https://maps.app.goo.gl/5jE7ypDhouRTVUXZA"> >>Liat Halte<< </a><br><img src="assets/img/tablejam.jpeg" width="300" height="200">')
+
+  L.Routing.control({
+    waypoints: [
+    L.latLng(-7.235072682230659, 112.60791509936885), // Titik awal (Terminal Joyoboyo)
+    L.latLng(-7.3295351146434715, 112.80430838280022) // Titik tujuan (dapat diubah sesuai keperluan)
+    ]
+    }).addTo(map);
+
+var halteMarkerJ = L.marker([-7.268228015557616, 112.66655780370948])
+  .addTo(map)
+  .bindPopup(`
+    <b>Terminal Manukan</b><br>
+    Jl. Manukan Rejo, Surabaya <br> 
+    <a href="https://maps.app.goo.gl/5jE7ypDhouRTVUXZA"> >>Liat Halte<< </a><br>
+    <table style="border-collapse: collapse; width: 300px;">
+      <tr>
+        <td style="border: 1px solid black;">5:30</td>
+        <td style="border: 1px solid black;">5:40</td>
+        <td style="border: 1px solid black;">5:50</td>
+        <td style="border: 1px solid black;">6:00</td>
+        <td style="border: 1px solid black;">6:10</td>
+        <td style="border: 1px solid black;">6:20</td>
+        <td style="border: 1px solid black;">6:30</td>
+        <td style="border: 1px solid black;">6:40</td>
+        <td style="border: 1px solid black;">6:50</td>
+      </tr>
+      <!-- Tambahan waktu berikutnya di sini -->
+    </table>
+  `)
   .openPopup();
-  
-  var halteMarker = L.marker([-7.258953757630492, 112.67859817780693])
-    .addTo(map)
-    .bindPopup('Halte E');
-  halteMarker.bindPopup('<b>Terminal Balongsari</b><br>Jl. Balongsari, Surabaya <br> <a href="https://maps.app.goo.gl/UDCJt54HMcQSMCJY8"> >>Liat Halte<< </a><br><img src="assets/img/tablejam.jpeg" width="300" height="200">')
+
+  L.Routing.control({
+    waypoints: [
+    L.latLng(-7.268228015557616, 112.66655780370948), // Titik awal (Terminal Joyoboyo)
+    L.latLng(-7.3295351146434715, 112.80430838280022) // Titik tujuan (dapat diubah sesuai keperluan)
+    ]
+    }).addTo(map);
+
+var halteMarkerK = L.marker([-7.258953757630492, 112.67859817780693])
+  .addTo(map)
+  .bindPopup(`
+    <b>Terminal Balongsari</b><br>
+    Jl. Balongsari, Surabaya <br> 
+    <a href="https://maps.app.goo.gl/UDCJt54HMcQSMCJY8"> >>Liat Halte<< </a><br>
+    <table style="border-collapse: collapse; width: 300px;">
+      <tr>
+        <td style="border: 1px solid black;">5:30</td>
+        <td style="border: 1px solid black;">5:40</td>
+        <td style="border: 1px solid black;">5:50</td>
+        <td style="border: 1px solid black;">6:00</td>
+        <td style="border: 1px solid black;">6:10</td>
+        <td style="border: 1px solid black;">6:20</td>
+        <td style="border: 1px solid black;">6:30</td>
+        <td style="border: 1px solid black;">6:40</td>
+        <td style="border: 1px solid black;">6:50</td>
+      </tr>
+      <!-- Tambahan waktu berikutnya di sini -->
+    </table>
+  `)
   .openPopup();
-  
-  var halteMarker = L.marker([-7.351285407253965, 112.72455358263885])
-    .addTo(map)
-    .bindPopup('Halte E');
-  halteMarker.bindPopup('<b>Terminal Bungurasih</b><br>Jl. Bungurasih Timur, Surabaya <br> <a href="https://maps.app.goo.gl/nsidaMgMRExDYXZg6"> >>Liat Halte<< </a><br><img src="assets/img/tablejam.jpeg" width="300" height="200">')
+
+  L.Routing.control({
+    waypoints: [
+    L.latLng(-7.258953757630492, 112.67859817780693), // Titik awal (Terminal Joyoboyo)
+    L.latLng(-7.3295351146434715, 112.80430838280022) // Titik tujuan (dapat diubah sesuai keperluan)
+    ]
+    }).addTo(map);
+
+var halteMarkerL = L.marker([-7.351285407253965, 112.72455358263885])
+  .addTo(map)
+  .bindPopup(`
+    <b>Terminal Bungurasih</b><br>
+    Jl. Bungurasih Timur, Surabaya <br> 
+    <a href="https://maps.app.goo.gl/nsidaMgMRExDYXZg6"> >>Liat Halte<< </a><br>
+    <table style="border-collapse: collapse; width: 300px;">
+      <tr>
+        <td style="border: 1px solid black;">5:30</td>
+        <td style="border: 1px solid black;">5:40</td>
+        <td style="border: 1px solid black;">5:50</td>
+        <td style="border: 1px solid black;">6:00</td>
+        <td style="border: 1px solid black;">6:10</td>
+        <td style="border: 1px solid black;">6:20</td>
+        <td style="border: 1px solid black;">6:30</td>
+        <td style="border: 1px solid black;">6:40</td>
+        <td style="border: 1px solid black;">6:50</td>
+      </tr>
+      <!-- Tambahan waktu berikutnya di sini -->
+    </table>
+  `)
   .openPopup();
+
+  L.Routing.control({
+    waypoints: [
+    L.latLng(-7.351285407253965, 112.72455358263885), // Titik awal (Terminal Joyoboyo)
+    L.latLng(-7.3295351146434715, 112.80430838280022) // Titik tujuan (dapat diubah sesuai keperluan)
+    ]
+    }).addTo(map);
