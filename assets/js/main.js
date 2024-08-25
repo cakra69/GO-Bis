@@ -240,8 +240,9 @@ map.on("locationerror", onLocationError);
 var halteMarker = L.marker([-7.260050682553981, 112.73975045722177])
   .addTo(map)
   .bindPopup(`
-    <b>Halte Tunjungan Plaza</b><br>Jl. Tunjungan<br> <a href="https://maps.app.goo.gl/xhXAudEAFNT8rVwDA"> >>Liat Halte<< </a><br><table style="border-collapse: collapse; width: 300px;">
-      <tr>
+    <b>Halte Tunjungan Plaza</b><br>Jl. Tunjungan<br> <a href="https://maps.app.goo.gl/xhXAudEAFNT8rVwDA"> >>Liat Halte<< </a><br>
+    <table style="border-collapse: collapse; width: 300px;">
+     <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -252,109 +253,10 @@ var halteMarker = L.marker([-7.260050682553981, 112.73975045722177])
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
       </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
-      </tr>
     </table>
   `)
   .openPopup();
-
+  
   var halteMarker = L.marker([-7.2659149, 112.7488388])
   .addTo(map)
   .bindPopup(`
@@ -372,108 +274,10 @@ var halteMarker = L.marker([-7.260050682553981, 112.73975045722177])
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
       </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
-      </tr>
     </table>
   `)
   .openPopup();
+  
 
 var halteMarker = L.marker([-7.2638763, 112.7454485])
   .addTo(map)
@@ -481,7 +285,7 @@ var halteMarker = L.marker([-7.2638763, 112.7454485])
     <b>Halte RS Darmo</b><br>Jl. Yos Sudarso, Surabaya<br>
     <a href="https://maps.app.goo.gl/iYBtG9yrbETVKG328"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -491,105 +295,6 @@ var halteMarker = L.marker([-7.2638763, 112.7454485])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -601,7 +306,7 @@ var halteMarker = L.marker([-7.257181757476443, 112.73782190145246])
     <b>Halte Siola</b><br>Jl. Genteng, Surabaya<br>
     <a href="https://maps.app.goo.gl/2GuzJiGF5CuxLQ3z9"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -611,105 +316,6 @@ var halteMarker = L.marker([-7.257181757476443, 112.73782190145246])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -721,7 +327,7 @@ var halteMarker = L.marker([-7.245937772875167, 112.73710874049821])
     <b>Halte Pasar Turi</b><br>Jl. Bubutan, Surabaya<br>
     <a href="https://maps.app.goo.gl/pnqseVM8XusPiE3z9"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -731,105 +337,6 @@ var halteMarker = L.marker([-7.245937772875167, 112.73710874049821])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -841,7 +348,7 @@ var halteMarker = L.marker([-7.274031203119551, 112.74215002535851])
     <b>Halte Urip Sumoharjo</b><br>Jl. Keputran, Surabaya<br>
     <a href="https://maps.app.goo.gl/tMd7AThrh1R2GTVS6"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -851,105 +358,6 @@ var halteMarker = L.marker([-7.274031203119551, 112.74215002535851])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -961,7 +369,7 @@ var halteMarker = L.marker([-7.265200822467888, 112.74765390658213])
     <b>Halte Delta Plaza</b><br>Jl. Embong Kaliasin, Surabaya<br>
     <a href="https://maps.app.goo.gl/oaSuf1GSUKGzSotRA"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -971,105 +379,6 @@ var halteMarker = L.marker([-7.265200822467888, 112.74765390658213])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -1081,7 +390,7 @@ var halteMarker = L.marker([-7.263561208975308, 112.74403685214475])
     <b>Halte Gubernur Suryo</b><br>Jl. Embong Kaliasin, Surabaya<br>
     <a href="https://maps.app.goo.gl/SF7U529fLVWreLkCA"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -1091,105 +400,6 @@ var halteMarker = L.marker([-7.263561208975308, 112.74403685214475])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -1201,7 +411,7 @@ var halteMarker = L.marker([-7.243876296760908, 112.73838862666493])
     <b>Halte Tugu Pahlawan</b><br>Jl. Krembangan, Surabaya<br>
     <a href="https://maps.app.goo.gl/ciY8v7b6sD7tti9e9"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -1211,105 +421,6 @@ var halteMarker = L.marker([-7.243876296760908, 112.73838862666493])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -1321,7 +432,7 @@ var halteMarker = L.marker([-7.213000369785626, 112.73386460309169])
     <b>Halte Tanjung Perak</b><br>Jl. Perak Timur, Surabaya<br>
     <a href="https://maps.app.goo.gl/W89D7itqMGuj2W1y5"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -1331,105 +442,6 @@ var halteMarker = L.marker([-7.213000369785626, 112.73386460309169])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -1441,7 +453,7 @@ var halteMarker = L.marker([-7.235426908100587, 112.73646566987023])
     <b>Halte Jembatan Merah Plaza</b><br>Jl. Krembangan, Surabaya<br>
     <a href="https://maps.app.goo.gl/rCVu3Gw7c2fnGLDw7"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -1451,105 +463,6 @@ var halteMarker = L.marker([-7.235426908100587, 112.73646566987023])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -1561,7 +474,7 @@ var halteMarker = L.marker([-7.252525846846198, 112.79601489262619])
     <b>Halte Kenjeran Park</b><br>Jl. Sukolilo Baru, Surabaya<br>
     <a href="https://maps.app.goo.gl/VmVbJoqfA6KDJjPW9"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -1571,105 +484,6 @@ var halteMarker = L.marker([-7.252525846846198, 112.79601489262619])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -1681,7 +495,7 @@ var halteMarker = L.marker([-7.236870417255592, 112.73942548757135])
     <b>Halte Kya Kya</b><br>Jl. Kembang Jepun, Surabaya<br>
     <a href="https://maps.app.goo.gl/ipgJTEr9QzTMMyXv7"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -1691,105 +505,6 @@ var halteMarker = L.marker([-7.236870417255592, 112.73942548757135])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -1801,7 +516,7 @@ var halteMarker = L.marker([-7.240261003649429, 112.74531598382283])
     <b>Halte Kapasan</b><br>Jl. Bongkaran, Surabaya<br>
     <a href="https://maps.app.goo.gl/Lv5rQxqL1T9q79gq7"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -1811,105 +526,6 @@ var halteMarker = L.marker([-7.240261003649429, 112.74531598382283])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -1921,7 +537,7 @@ var halteMarker = L.marker([-7.242243025282836, 112.73957600238937])
     <b>Halte Semut Indah</b><br>Jl. Bongkaran Pabean, Surabaya<br>
     <a href="https://maps.app.goo.gl/zDsPP8FoH516vGCU6"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -1931,105 +547,6 @@ var halteMarker = L.marker([-7.242243025282836, 112.73957600238937])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -2041,7 +558,7 @@ var halteMarker = L.marker([-7.228133124982026, 112.74876267318594])
     <b>Halte Pegirian</b><br>Jl. Sidotopo, Surabaya<br>
     <a href="https://maps.app.goo.gl/BBxYcLBA73oy3ncE6"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -2051,105 +568,6 @@ var halteMarker = L.marker([-7.228133124982026, 112.74876267318594])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -2161,7 +579,7 @@ var halteMarker = L.marker([-7.224373179073661, 112.73585653997517])
     <b>Halte Kalimas Baru</b><br>Jl. Pabean, Surabaya<br>
     <a href="https://maps.app.goo.gl/kZzhGNsE7AbeNBmG6"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -2171,105 +589,6 @@ var halteMarker = L.marker([-7.224373179073661, 112.73585653997517])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -2281,7 +600,7 @@ var halteMarker = L.marker([-7.2882304053156295, 112.67722471406297])
     <b>Halte Pakuwon Trade Center</b><br>Jl. Babatan, Surabaya<br>
     <a href="https://maps.app.goo.gl/Sp1rUJeqr748PHSp8"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -2291,105 +610,6 @@ var halteMarker = L.marker([-7.2882304053156295, 112.67722471406297])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -2401,7 +621,7 @@ var halteMarker = L.marker([-7.284819788526998, 112.6814104097696])
     <b>Halte Lenmarc Mall</b><br>Jl. Dukuhpakis, Surabaya<br>
     <a href="https://maps.app.goo.gl/gW1ySQz8JvTKMGaJ7"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -2411,105 +631,6 @@ var halteMarker = L.marker([-7.284819788526998, 112.6814104097696])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -2521,7 +642,7 @@ var halteMarker = L.marker([-7.2872685493366935, 112.64778684393517])
     <b>Halte Citraland</b><br>Jl. Sambikerep, Surabaya<br>
     <a href="https://maps.app.goo.gl/aDLAavLgmkWJ1Fqt6"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -2531,105 +652,6 @@ var halteMarker = L.marker([-7.2872685493366935, 112.64778684393517])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -2640,7 +662,7 @@ var halteMarker = L.marker([-7.255789272926918, 112.66336429859696])
   .bindPopup(`
     <b>Halte Manukan</b><br>Jl. Manukan, Surabaya<br>
     <a href="https://maps.app.goo.gl/dZk4FTPy5Wb4FguY6"> >>Liat Halte<< </a>    <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -2650,105 +672,6 @@ var halteMarker = L.marker([-7.255789272926918, 112.66336429859696])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -2759,7 +682,7 @@ var halteMarker = L.marker([-7.274919184975567, 112.6855838288624])
   .bindPopup(`
     <b>Halte Satelit</b><br>Jl. Sukomanunggal, Surabaya<br>
     <a href="https://maps.app.goo.gl/Areo5o5tiUmikqDPA"> >>Liat Halte<< </a>    <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -2769,105 +692,6 @@ var halteMarker = L.marker([-7.274919184975567, 112.6855838288624])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -2879,7 +703,7 @@ var halteMarker = L.marker([-7.296818341388646, 112.67542591947084])
     <b>Halte Unesa</b><br>Jl. Raya Kampus Unesa, Surabaya<br>
     <a href="https://maps.app.goo.gl/ymg8cZEeKyESkjnP8"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -2889,105 +713,6 @@ var halteMarker = L.marker([-7.296818341388646, 112.67542591947084])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -2999,7 +724,7 @@ var halteMarker = L.marker([-7.258613014805818, 112.6791889516048])
     <b>Halte Tandes</b><br>Jl. Balongsari, Surabaya<br>
     <a href="https://maps.app.goo.gl/kKNhSCvVkpAQ8Ppx6"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -3009,105 +734,6 @@ var halteMarker = L.marker([-7.258613014805818, 112.6791889516048])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -3119,7 +745,7 @@ var halteMarker = L.marker([-7.313090098311653, 112.70453788681155])
     <b>Halte Wiyung</b><br>Jl. Raya Wiyung, Surabaya<br>
     <a href="https://maps.app.goo.gl/eRgUFrbstPnZouN68"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -3129,105 +755,6 @@ var halteMarker = L.marker([-7.313090098311653, 112.70453788681155])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -3239,7 +766,7 @@ var halteMarker = L.marker([-7.324694157618176, 112.70921052795038])
     <b>Halte Karangpilang</b><br>Jl. Kedurus, Surabaya<br>
     <a href="https://maps.app.goo.gl/zUiW1txzQoDw2Uqb9"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -3249,105 +776,6 @@ var halteMarker = L.marker([-7.324694157618176, 112.70921052795038])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -3359,7 +787,7 @@ var halteMarker = L.marker([-7.27922204743312, 112.78987437430158])
     <b>Halte ITS</b><br>Jl. Raya Kertajaya Indah, Surabaya<br>
     <a href="https://maps.app.goo.gl/RFznNUyWrvdU1b3cA"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -3369,105 +797,6 @@ var halteMarker = L.marker([-7.27922204743312, 112.78987437430158])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -3479,7 +808,7 @@ var halteMarker = L.marker([-7.275570703125014, 112.78156198529453])
     <b>Halte Galaxy Mall</b><br>Jl. Mulyorejo, Surabaya<br>
     <a href="https://maps.app.goo.gl/MHce8W19RnFP34Nx7"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -3489,105 +818,6 @@ var halteMarker = L.marker([-7.275570703125014, 112.78156198529453])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -3599,7 +829,7 @@ var halteMarker = L.marker([-7.338479493541267, 112.78502669876873])
     <b>Halte MERR</b><br>Jl. Gunung Anyar, Surabaya<br>
     <a href="https://maps.app.goo.gl/bRi9Tf95x9FQSnPo8"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -3609,105 +839,6 @@ var halteMarker = L.marker([-7.338479493541267, 112.78502669876873])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -3719,7 +850,7 @@ var halteMarker = L.marker([-7.330695501251476, 112.7636497274955])
     <b>Halte Rungkut Industri</b><br>Jl. Rungkut Kidul, Surabaya<br>
     <a href="https://maps.app.goo.gl/Hey9vHrnjYTJCxX5A"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -3729,105 +860,6 @@ var halteMarker = L.marker([-7.330695501251476, 112.7636497274955])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -3839,7 +871,7 @@ var halteMarker = L.marker([-7.332498758688617, 112.7897794939292])
     <b>Halte UPN Veteran</b><br>Jl. Medokan Ayu, Surabaya<br>
     <a href="https://maps.app.goo.gl/khACZub972eWuhvG7"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -3849,105 +881,6 @@ var halteMarker = L.marker([-7.332498758688617, 112.7897794939292])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -3959,7 +892,7 @@ var halteMarker = L.marker([-7.27021319373113, 112.75850954514588])
     <b>Halte Universitas Airlangga</b><br>Jl. Airlangga Gubeng, Surabaya<br>
     <a href="https://maps.app.goo.gl/MSKUi5A5vjVvieHR6"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -3969,105 +902,6 @@ var halteMarker = L.marker([-7.27021319373113, 112.75850954514588])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -4079,7 +913,7 @@ var halteMarker = L.marker([-7.273371861726625, 112.75618587016199])
     <b>Halte Dharmawangsa</b><br>Jl. Dharmawangsa, Surabaya<br>
     <a href="https://maps.app.goo.gl/XurQkfbsqU231ENKA"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -4089,105 +923,6 @@ var halteMarker = L.marker([-7.273371861726625, 112.75618587016199])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -4199,7 +934,7 @@ var halteMarker = L.marker([-7.331367515085195, 112.78786056860444])
     <b>Halte Rungkut Asri</b><br>Jl. Rungkut Asri, Surabaya<br>
     <a href="https://maps.app.goo.gl/NWDwThgYXwT96eEu8"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -4209,105 +944,6 @@ var halteMarker = L.marker([-7.331367515085195, 112.78786056860444])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -4319,7 +955,7 @@ var halteMarker = L.marker([-7.278970180918108, 112.76371666145779])
     <b>Halte Manyar Kertoarjo</b><br>Jl. Manyar SAMSAT, Surabaya<br>
     <a href="https://maps.app.goo.gl/azQuvuYfgfh5EqFN8"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -4329,105 +965,6 @@ var halteMarker = L.marker([-7.278970180918108, 112.76371666145779])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -4439,7 +976,7 @@ var halteMarker = L.marker([-7.308498851006417, 112.73516697913308])
     <b>Halte Royal Plaza</b><br>Jl. Wonokromo, Surabaya<br>
     <a href="https://maps.app.goo.gl/de3buYz58sZLCmQN7"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -4449,105 +986,6 @@ var halteMarker = L.marker([-7.308498851006417, 112.73516697913308])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -4559,7 +997,7 @@ var halteMarker = L.marker([-7.298674935052674, 112.73780494990737])
     <b>Halte KBS</b><br>Jl. Darmo Wonokromo, Surabaya<br>
     <a href="https://maps.app.goo.gl/rj2a6xgS4mjTFV72A"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -4569,105 +1007,6 @@ var halteMarker = L.marker([-7.298674935052674, 112.73780494990737])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -4679,7 +1018,7 @@ var halteMarker = L.marker([-7.30800340992319, 112.7360079708331])
     <b>Halte Ahmad Yani</b><br>Jl. Jagir Wonokromo, Surabaya<br>
     <a href="https://maps.app.goo.gl/3eUyqjcWFPUJpGnu7"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -4689,105 +1028,6 @@ var halteMarker = L.marker([-7.30800340992319, 112.7360079708331])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -4799,7 +1039,7 @@ var halteMarker = L.marker([-7.328584742317062, 112.73171242487818])
     <b>Halte Jemursari</b><br>Jl. Jemur Wonosari, Surabaya<br>
     <a href="https://maps.app.goo.gl/brEx1sZUtDGR7eaV9"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -4809,105 +1049,6 @@ var halteMarker = L.marker([-7.328584742317062, 112.73171242487818])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -4919,7 +1060,7 @@ var halteMarker = L.marker([-7.343326197972517, 112.72893302813434])
     <b>Halte Menanggal</b><br>Jl. Gayungan, Surabaya<br>
     <a href="https://maps.app.goo.gl/RAx9KiJBY2eKGdyp8"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -4929,105 +1070,6 @@ var halteMarker = L.marker([-7.343326197972517, 112.72893302813434])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -5039,7 +1081,7 @@ var halteMarker = L.marker([-7.303122834902533, 112.73679792785687])
     <b>Halte Wonokromo</b><br>Jl. Wonokromo, Surabaya<br>
     <a href="https://maps.app.goo.gl/zDovwwyZHF44PtGG6"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -5049,105 +1091,6 @@ var halteMarker = L.marker([-7.303122834902533, 112.73679792785687])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -5159,7 +1102,7 @@ var halteMarker = L.marker([-7.316097139388028, 112.7351291093512])
     <b>Halte Margorejo</b><br>Jl. Margorejo Indah, Surabaya<br>
     <a href="https://maps.app.goo.gl/G6vcBfWs8bFdtED48"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -5169,105 +1112,6 @@ var halteMarker = L.marker([-7.316097139388028, 112.7351291093512])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -5279,7 +1123,7 @@ var halteMarker = L.marker([-7.33765759003382, 112.72062260403588])
     <b>Halte Gayungsari</b><br>Jl. Gayungsari, Surabaya<br>
     <a href="https://maps.app.goo.gl/BJaG84JeKLFAsrze7"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -5289,105 +1133,6 @@ var halteMarker = L.marker([-7.33765759003382, 112.72062260403588])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
@@ -5399,7 +1144,7 @@ var halteMarker = L.marker([-7.345702165087509, 112.72793606559505])
     <b>Halte Cito</b><br>Jl. Waru Ahmad Yani, Surabaya<br>
     <a href="https://maps.app.goo.gl/fRaYyDv6pcbNogds6"> >>Liat Halte<< </a>
         <table style="border-collapse: collapse; width: 100%;">
-       <tr>
+      <tr>
         <td style="border: 1px solid black;">5:30</td>
         <td style="border: 1px solid black;">5:40</td>
         <td style="border: 1px solid black;">5:50</td>
@@ -5409,105 +1154,6 @@ var halteMarker = L.marker([-7.345702165087509, 112.72793606559505])
         <td style="border: 1px solid black;">6:30</td>
         <td style="border: 1px solid black;">6:40</td>
         <td style="border: 1px solid black;">6:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">7:00</td>
-        <td style="border: 1px solid black;">7:10</td>
-        <td style="border: 1px solid black;">7:20</td>
-        <td style="border: 1px solid black;">7:30</td>
-        <td style="border: 1px solid black;">7:40</td>
-        <td style="border: 1px solid black;">7:50</td>
-        <td style="border: 1px solid black;">8:00</td>
-        <td style="border: 1px solid black;">8:10</td>
-        <td style="border: 1px solid black;">8:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">8:30</td>
-        <td style="border: 1px solid black;">8:40</td>
-        <td style="border: 1px solid black;">8:50</td>
-        <td style="border: 1px solid black;">9:00</td>
-        <td style="border: 1px solid black;">9:10</td>
-        <td style="border: 1px solid black;">9:20</td>
-        <td style="border: 1px solid black;">9:30</td>
-        <td style="border: 1px solid black;">9:40</td>
-        <td style="border: 1px solid black;">9:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">10:00</td>
-        <td style="border: 1px solid black;">10:10</td>
-        <td style="border: 1px solid black;">10:20</td>
-        <td style="border: 1px solid black;">10:30</td>
-        <td style="border: 1px solid black;">10:40</td>
-        <td style="border: 1px solid black;">10:50</td>
-        <td style="border: 1px solid black;">11:00</td>
-        <td style="border: 1px solid black;">11:10</td>
-        <td style="border: 1px solid black;">11:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">11:30</td>
-        <td style="border: 1px solid black;">11:40</td>
-        <td style="border: 1px solid black;">11:50</td>
-        <td style="border: 1px solid black;">12:00</td>
-        <td style="border: 1px solid black;">12:10</td>
-        <td style="border: 1px solid black;">12:20</td>
-        <td style="border: 1px solid black;">12:30</td>
-        <td style="border: 1px solid black;">12:40</td>
-        <td style="border: 1px solid black;">12:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">13:00</td>
-        <td style="border: 1px solid black;">13:10</td>
-        <td style="border: 1px solid black;">13:20</td>
-        <td style="border: 1px solid black;">13:30</td>
-        <td style="border: 1px solid black;">13:40</td>
-        <td style="border: 1px solid black;">13:50</td>
-        <td style="border: 1px solid black;">14:00</td>
-        <td style="border: 1px solid black;">14:10</td>
-        <td style="border: 1px solid black;">14:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">14:30</td>
-        <td style="border: 1px solid black;">14:40</td>
-        <td style="border: 1px solid black;">14:50</td>
-        <td style="border: 1px solid black;">15:00</td>
-        <td style="border: 1px solid black;">15:10</td>
-        <td style="border: 1px solid black;">15:20</td>
-        <td style="border: 1px solid black;">15:30</td>
-        <td style="border: 1px solid black;">15:40</td>
-        <td style="border: 1px solid black;">15:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">16:00</td>
-        <td style="border: 1px solid black;">16:10</td>
-        <td style="border: 1px solid black;">16:20</td>
-        <td style="border: 1px solid black;">16:30</td>
-        <td style="border: 1px solid black;">16:40</td>
-        <td style="border: 1px solid black;">16:50</td>
-        <td style="border: 1px solid black;">17:00</td>
-        <td style="border: 1px solid black;">17:10</td>
-        <td style="border: 1px solid black;">17:20</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">17:30</td>
-        <td style="border: 1px solid black;">17:40</td>
-        <td style="border: 1px solid black;">17:50</td>
-        <td style="border: 1px solid black;">18:00</td>
-        <td style="border: 1px solid black;">18:10</td>
-        <td style="border: 1px solid black;">18:20</td>
-        <td style="border: 1px solid black;">18:30</td>
-        <td style="border: 1px solid black;">18:40</td>
-        <td style="border: 1px solid black;">18:50</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black;">19:00</td>
-        <td style="border: 1px solid black;">19:10</td>
-        <td style="border: 1px solid black;">19:20</td>
-        <td style="border: 1px solid black;">19:30</td>
-        <td style="border: 1px solid black;">19:40</td>
-        <td style="border: 1px solid black;">19:50</td>
-        <td style="border: 1px solid black;">20:00</td>
-        <td style="border: 1px solid black;">20:10</td>
-        <td style="border: 1px solid black;">20:20</td>
       </tr>
     </table>
   `)
